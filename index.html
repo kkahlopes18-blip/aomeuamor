@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sua namorada te ama!</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background-color: #fffcf2; /* Fundo base */
+        color: black; /* Letras pretas */
+    }
+
+    header {
+        background-color: #fcf186; /* Cabecalho */
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        position: sticky;
+        top: 0;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        margin-left: 20px;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+
+    nav a:hover {
+        opacity: 0.6;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 80px 20px;
+    }
+
+    .hero h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .hero p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        background-color: black;
+        color: #fffcf2;
+        padding: 12px 25px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background-color: #333;
+        transform: scale(1.05);
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding: 40px 20px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background: white;
+        padding: 30px;
+        width: 280px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        font-size: 14px;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+        header {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .hero h2 {
+            font-size: 28px;
+        }
+
+        .cards {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Vinicius, Meu Ursinho</h1>
+    <nav>
+        <a href="#">EU</a>
+        <a href="#">TE</a>
+        <a href="#">AMO</a>
+        <a href="#">MUITO</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Bem Vindo!</h2>
+    <p>Se você está vendo isso é porque tem uma namorada muito foda e inteligente.</p>
+    <a href="#" class="btn">Gostou? Fiz um site pra você</a>
+</section>
+
+<section class="cards">
+    <div class="card">
+        <h3>Eu te amo!</h3>
+        <p>O unico motivo para esta que vos fala enfiar a cara em um codigo por uma tarde inteira estando só no primeiro semestre de tecnico em analise e desenvolvimento de sistemas é porque eu te amo mais do que poderia explicar.</p>
+    </div>
+
+    <div class="card">
+        <h3>Mas por que a princesa fez isso?</h3>
+        <p>Deu vontade rs, eu sempre faço textinhos e videos, decidi inovar dessa vez e aproveitar pra praticar meu vscode.</p>
+    </div>
+
+    <div class="card">
+        <h3>Observações</h3>
+        <p>Não sai clicando em tudo, não sou tão foda assim também.</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 - Eu te amo
+</footer>
+
+</body>
+</html>
